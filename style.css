@@ -1,0 +1,50 @@
+#fon{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.content {
+    border: 1px 1px 1px 1px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border-style: solid;
+    position: fixed;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    margin: 15% 33% 33% 33%;
+    padding: 20px 20px 20px 20px;
+    
+}
+.content img{
+    border: 2px 2px 2px 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 2px;
+    float:left;
+    margin-right: 20px;
+}
+#random {
+    float: left;
+    margin-left: 400px;
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: white;
+    color: black;
+    cursor: pointer; 
+    border-radius: 5px;
+}
+#random:hover {
+    background: #f00707;
+    color: rgb(252, 248, 248);
+}
+.phrase {
+    margin-left: px;
+    margin-right: 10px;
+    float: right;
+    position: fixed;
+}
